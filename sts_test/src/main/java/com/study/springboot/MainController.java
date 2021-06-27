@@ -11,4 +11,9 @@ public class MainController {
 	 public @ResponseBody  String root() {
 		 return "Hi...";
 	 }
+	 
+	 @RequestMapping("/test")
+	 public @ResponseBody  String test() {
+		 return "Hi.test..";
+	 }
 }
